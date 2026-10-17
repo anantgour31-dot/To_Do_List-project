@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.screen{
+    height: 100vmin;
+    width: 1366px;
+    background-color: #E2E2EC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container{
+    height: 500px;
+    width: 700px;
+    background-color: #818AA3;
+    display: flex;
+    flex-direction: column;
+    border: .5px solid black ;
+    border-radius: 10px;
+
+
+
+}
+.cont1{
+    width: 100%;
+    height: 80px;
+    background-color: #B8C6B1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.name{
+    font-size: 32px;
+    color: #2A2F35;
+
+}
+.cont2 {
+    width: 100%;
+    min-height: 420px; /* Changed from height to min-height */
+    height: auto;      /* Allows it to grow when new divs are added */
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 50px;
+}
+
+#top_button{
+    height:40px;
+    width: 80px;
+    background-color: #B8C6B1;
+    border: none;
+    border-radius: 10px;
+
+}
+.hidden1{
+    height: 40px;
+    width : 500px;
+    /* border: 0.4px solid grey; */
+    
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    padding: 10px;
+    /* visibility: hidden; */
+}
+.write1{
+    height: 40px;
+    width : 280px;
+    border-bottom: 0.3px solid grey;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-weight: 100;
+    color: rgb(65, 63, 63);
+    border-radius: 10px;
+}
+.write1:focus{
+    outline: none;
+}
+
+.complete1{
+    height: 40px;
+    width : 90px;
+    background-color: #B8C6B1;
+    border: none;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-right: 10px;
+    /* border-bottom-right-radius: 10px; */
+}
+.delete1{
+    height: 40px;
+    width : 90px;
+    background-color: #B8C6B1;
+    border: none;
+    border-radius: 10px;
+    
+    margin-right: 10px;
+    /* border-bottom-right-radius: 10px; */
+}
